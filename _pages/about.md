@@ -2,11 +2,11 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='https://www.cs.mcgill.ca/~yueli/'>Lab Affiliation</a>.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: uncompress/prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>I'm currently located in Montréal, completing my Master's Thesis!</p>
