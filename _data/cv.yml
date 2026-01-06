@@ -1,34 +1,28 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+# - title: Contact
+#   type: map
+#   contents:
+#     - name: Email
+#       value: eric.h.huang at mail.mcgill.ca
+    # - name: Languages
+    #   value: English, German
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Master's of Science in Computer Science (Thesis)
+      institution: McGill University, Montréal, Canada
+      year: 2025-present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - "GPA: 4.0/4.0"
+        - Supervised by Yue Li.
+        - Researching genomics in healthcare through single-cell transcriptomics. Currently working towards modelling Gene Regulatory Networks over time, with an application in understanding Major Depressive Disorder.
+    - title: Bachelor of Computer Science
+      institution: University of Waterloo, Waterloo, Canada
+      year: 2020-2025
       description:
-        - Description 1.
-        - Description 2.
+        - "GPA: 90.55% (Graduated Dean's Honour List)"
 
-- title: Experience
+- title: Research Experience
   type: time_table
   contents:
     - title: Professor of Theoretical Physics
@@ -61,12 +55,103 @@
       institution: University of Zurich, Zurich, Switzerland
       year: 1909 - 1911
 
-- title: Open Source Projects
+- title: Employment Experience
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: 3D Software Engineer Intern
+      institution: SideFX, Toronto, Ontario
+      year: May 2024 - Aug 2024
+      description:
+        - Experimented with OpenCL optimizations for image resampling through separable linear kernels to reduce bandwidth. Proved quadratic kernels are more memory efficient through timing tests and peak memory calculations.
+        - Implemented geometry override features using C++ for artists to override parameters for COP image renders.
+        - Developed HScript expressions to evaluate node signature types through graph analysis to improve the COP workflow.
+
+    - title: Machine Learning Engineer Intern
+      institution: Cerebras Systems, Toronto, Ontario
+      year: Jan 2024 - Apr 2024
+      description:
+        - Developed weight compression and freezing features through PyTorch framework support to reduce ML training time.
+        - Integrated Determined AI's training platform on GPT models with PyTorch support and Docker for Cerebras hardware.
+        - Improved UX through implementing error handling on MLIR failures to help users find issues independently.
+
+    - title: Compiler Engineer Intern
+      institution: Cerebras Systems, Toronto, Ontario
+      year: Jan 2023 - Apr 2023
+      description:
+        - Developed a library using greedy algorithms and spatial geometry to improve the C++ LLVM compiler runtime.
+        - Improved linker runtime through dynamic programming and caching multithreaded results for a 15% speed-up.
+        - Researched C++'s Boost library by running smaller scale experiments to test linker optimization possibilities.
+
+    - title: Embedded Software Engineer Intern
+      institution: Siemens Healthineers, Ottawa, Ontario
+      year: May 2022 - Aug 2022
+      description:
+        - Integrated a secure Bluetooth driver for the Laird BL653 module with a throughput of 100+KB/s.
+        - Prototyped a Wi-Fi Direct Android app written in Java to enable speeds of 100+MB/s for software package transfers.
+        - Developed a LIS2DW12 accelerometer driver on the STM32H7 chipset in C and C++ through the I2C protocol to enable tapping, free fall, and orientation change recognition of the device.
+
+    - title: Backend Developer Intern
+      institution: Enzuzo Inc., Waterloo, Ontario
+      year: May 2021 - Aug 2021
+      description:
+        - Migrated from Datadog to a self-hosted Docker-based Jaeger observability platform saving 32% of computing costs.
+        - Simplified job service by migrating from RabbitMQ to PostgreSQL's notify/listen using Golang to improve scalability.
+        - Maintained microservice-based API built with Golang, gRPC, Swagger, PostgreSQL on Docker.
+
+- title: Teaching
+  type: time_table
+  contents:
+    - title: "COMP 424: Introduction to Artificial Intelligence"
+      institution: McGill University
+      year: 2025
+      description:
+        - Was a teaching assistant for this course, in charge of leading the final project design, the office hours, and grading.
+    - title: Calculus I Undergraduate Grader
+      institution: University of Waterloo
+      year: 2021
+      description:
+        - Graded assignments and exams for Calculus I course."
+    
+- title: Projects
+  type: time_table
+  contents:
+    - title: Transcription Factor Binding Prediction From Structural Information Framework
+      description:
+        - "GitHub found: <a href='https://github.com/ehuan2/tf-binding'>here</a>"
+        - "Project report: <a href='https://drive.google.com/file/d/16eQ9wBZkh2MYc5stWbwQUWuM3819rsWp/view'>here</a>"
+        - Designed a framework to compare the performance of traditional ML methods and deep learning models for transcription factor binding site prediction from motif information and 3D structure data using scikit-learn, MLflow, and **PyTorch**.
+        - Showcased the effect of different input modalities and model architectures on predicting PAX5 transcription factor binding sites in open regions with high motif scores.
+
+    - title: "Ray Tracing: Japanese Temple"
+      description:
+        - "Google Drive found: <a href='https://drive.google.com/drive/folders/1Y_tYlbzSwEBm77zSKQuGIzMGtRGNHbfX?usp=sharing'>here</a>"
+        - Implemented a Ray Tracer using **C++** and **OpenGL** to place **first** in the Computer Graphics class's final project.
+        - Researched various modeling algorithms such as L-System Trees through Context-Free Grammars, Fractal Mountains through stochastic processes, and volume combinations through Constructive Solid Geometry.
+        - Performed speed optimizations through mutex locks multithreading and geometric algorithms like Bounding Volumes.
+
+    - title: OpenGL Hierarchical Modelling Puppet
+      description:
+        - "Google Drive found: <a href='https://drive.google.com/drive/u/0/folders/1i1fdy0gmJ6Gjk90Jcurwl0FkOCc2266k'>here</a>"
+        - Implemented hierarchical modelling to allow lua defined controllable puppets with selectable joints through picking.
+        - Modelled objects in Blender to create obj files with face information, used to calculated colours through Phong Shading.
+        - Provided users with 3 axes of rotation on a 2D mouse input through the virtual trackball algorithm.
+
+    - title: Lacs Programming Language Compiler
+      description:
+        - Developed a compiler for a subset of Scala using **Scala** supporting type-checking, garbage collection and tail recursion.
+        - Built the compiler frontend using **Finite Automata** and **Earley's Parsing** which compiled to target **MIPS**.
+
+    - title: ASCII Game Engine
+      description:
+        - Created useful abstractions for game developers by using the **Model-View-Controller** pattern in **C++**.
+        - Prepared a plan in Unified Modelling Language to better communicate patterns and the execution of development.
+
+    - title: The Odd Goose
+      description:
+        - "GitHub found: <a href='https://github.com/The-Odd-Goose'>here</a>"
+        - Built a multiplayer game using a **Python (Flask) and Firebase** backend to handle game logic and authentication.
+        - Generated dynamic pages in a **React Typescript** frontend using hooks for asynchronous gameplay.
+
 
 - title: Honors and Awards
   type: time_table
@@ -78,18 +163,6 @@
     - year: 2029
       items:
         - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
 
 - title: Other Interests
   type: list

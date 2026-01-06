@@ -2,10 +2,10 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Fun projects I've worked on over the years!
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [bioinformatics, nlp, misc]
 horizontal: false
 ---
 

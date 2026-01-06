@@ -1,26 +1,27 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    // "name": "Albert Einstein",
+    // "label": "Scientist",
+    "title": "contact",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
-    },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
+    "email": "eric.h.huang at mail.mcgill.ca",
+    // "phone": "(613) 123-4567",
+    // "url": "https://alshedivat.github.io/al-folio/",
+    // "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    // "location": {
+    //   "address": "2712 Broadway St",
+    //   "postalCode": "CA 94115",
+    //   "city": "San Francisco",
+    //   "countryCode": "US",
+    //   "region": "California"
+    // },
+    // "profiles": [
+    //   {
+    //     "network": "Twitter",
+    //     "username": "AlbertEinstein",
+    //     "url": "https://twitter.com/AlbertEinstein"
+    //   }
+    // ]
   },
   "work": [
     {
@@ -47,15 +48,15 @@
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "institution": "University of Waterloo",
+      "location": "Waterloo, Canada",
+      "url": "https://uwaterloo.ca/",
+      "area": "",
+      "studyType": "Bachelor of Computer Science Co-op",
+      "startDate": "2020-09-01",
+      "endDate": "2025-04-30",
+      "score": "90.55",
+      "courses": [""]
     }
   ],
   "awards": [
@@ -67,50 +68,50 @@
       "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
     }
   ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
+  // "certificates": [
+  //   {
+  //     "name": "Machine Learning",
+  //     "date": "2018-01-01",
+  //     "issuer": "Stanford University",
+  //     "url": "https://example.com",
+  //     "icon": "fa-solid fa-location-dot"
+  //   },
+  //   {
+  //     "name": "Quantum Computing",
+  //     "date": "2018-01-01",
+  //     "issuer": "Stanford University",
+  //     "url": "https://example.com",
+  //     "icon": "fa-solid fa-tag"
+  //   },
+  //   {
+  //     "name": "Quantum Information",
+  //     "date": "2018-01-01",
+  //     "issuer": "Stanford University",
+  //     "url": "https://example.com",
+  //     "icon": "fa-solid fa-envelope"
+  //   },
+  //   {
+  //     "name": "Quantum Cryptography",
+  //     "date": "2018-01-01",
+  //     "issuer": "Stanford University",
+  //     "url": "https://example.com",
+  //     "icon": "fa-solid fa-hashtag"
+  //   },
+  //   {
+  //     "name": "Quantum Communication",
+  //     "date": "2018-01-01",
+  //     "issuer": "Stanford University",
+  //     "url": "https://example.com",
+  //     "icon": "fa-solid fa-calendar"
+  //   },
+  //   {
+  //     "name": "Quantum Teleportation",
+  //     "date": "2018-01-01",
+  //     "issuer": "Stanford University",
+  //     "url": "https://example.com",
+  //     "icon": "fa-solid fa-clipboard-check"
+  //   }
+  // ],
   "publications": [
     {
       "name": "Zur Elektrody/namik bewegter Körper",
@@ -175,18 +176,18 @@
       ]
     }
   ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
+  // "references": [
+  //   {
+  //     "name": "Professor John Doe",
+  //     "icon": "fa-solid fa-laptop",
+  //     "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+  //   },
+  //   {
+  //     "name": "Professor John Doe",
+  //     "icon": "fa-solid fa-thumbtack",
+  //     "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+  //   }
+  // ],
   "projects": [
     {
       "name": "Quantum Computing",
