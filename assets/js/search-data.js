@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of your cool projects.",
+          description: "Fun projects I&#39;ve worked on over the years!",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -59,7 +59,12 @@ ninja.data = [{
           section: "News",},{id: "news-starting-my-master-s-thesis-at-mcgill-university-doing-genomics-and-deep-learning-research",
           title: 'Starting my Master’s (thesis) at McGill University, doing genomics and deep learning research!...',
           description: "",
-          section: "News",},{
+          section: "News",},{id: "projects-vlm-lens",
+          title: 'VLM-Lens',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/vlm_lens/";
+            },},{
         id: 'social-github',
         title: 'GitHub',
         section: 'Socials',
