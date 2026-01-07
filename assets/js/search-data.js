@@ -59,7 +59,17 @@ ninja.data = [{
           section: "News",},{id: "news-starting-my-master-s-thesis-at-mcgill-university-doing-genomics-and-deep-learning-research",
           title: 'Starting my Master’s (thesis) at McGill University, doing genomics and deep learning research!...',
           description: "",
-          section: "News",},{id: "projects-vlm-lens",
+          section: "News",},{id: "projects-ray-tracer",
+          title: 'Ray Tracer',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/ray_tracer/";
+            },},{id: "projects-tf-binding",
+          title: 'TF Binding',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/tf_binding/";
+            },},{id: "projects-vlm-lens",
           title: 'VLM-Lens',
           description: "",
           section: "Projects",handler: () => {
