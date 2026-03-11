@@ -75,6 +75,13 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/vlm_lens/";
             },},{
+        id: 'social-cv',
+        title: 'CV',
+        section: 'Socials',
+        handler: () => {
+          window.open("/assets/pdf/resume.pdf", "_blank");
+        },
+      },{
         id: 'social-github',
         title: 'GitHub',
         section: 'Socials',
