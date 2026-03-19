@@ -9,7 +9,7 @@
 # arxiv_id: # your arXiv author ID
 # blogger_url: # your blogger URL
 # bluesky_url: # your bluesky URL
-cv_pdf: /assets/pdf/resume.pdf # path to your CV PDF file
+# cv_pdf: /assets/pdf/resume.pdf # path to your CV PDF file
 # dblp_url: # your DBLP profile url
 # discord_id: # your discord id (18-digit unique numerical identifier)
 # email: eric.h.huang at mail.mcgill.ca # your email address
@@ -29,7 +29,7 @@ github_username: ehuan2 # your GitHub user name
 linkedin_username: eric-haoran-huang # your LinkedIn user name
 # mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 # medium_username: # your Medium username
-# orcid_id: # your ORCID ID
+orcid_id: 0009-0005-4376-0784
 # osf_id: # your OSF ID
 # pinterest_id: # your pinterest id
 # publons_id: # your ID on Publons
