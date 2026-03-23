@@ -64,6 +64,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ray_tracer/";
+            },},{id: "projects-sctimebench",
+          title: 'scTimeBench',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/scTimeBench/";
             },},{id: "projects-tf-binding",
           title: 'TF Binding',
           description: "",
@@ -75,13 +80,6 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/vlm_lens/";
             },},{
-        id: 'social-cv',
-        title: 'CV',
-        section: 'Socials',
-        handler: () => {
-          window.open("/assets/pdf/resume.pdf", "_blank");
-        },
-      },{
         id: 'social-github',
         title: 'GitHub',
         section: 'Socials',
@@ -94,6 +92,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://www.linkedin.com/in/eric-haoran-huang", "_blank");
+        },
+      },{
+        id: 'social-orcid',
+        title: 'ORCID',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://orcid.org/0009-0005-4376-0784", "_blank");
         },
       },{
         id: 'social-scholar',
