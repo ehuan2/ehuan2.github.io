@@ -3,6 +3,22 @@
 
 @string{aps = {American Physical Society,}}
 
+@article {Osakwe2026.03.16.712069,
+	author = {Osakwe, Adrien and Huang, Eric Haoran and Li, Yue},
+	title = {scTimeBench: A streamlined benchmarking platform for single-cell time-series analysis},
+	elocation-id = {2026.03.16.712069},
+	year = {2026},
+	doi = {10.64898/2026.03.16.712069},
+	publisher = {Cold Spring Harbor Laboratory},
+	abstract = {Temporal modelling of single-cell gene expression is essential for capturing dynamic cellular processes, yet a systematic framework for evaluating time-aware trajectory inference methods has not yet been established. Here, we present a modular and scalable benchmark designed to assess methods across three critical tasks: forecast accuracy (temporal cell alignment) for projecting cells to unseen time points, embedding coherence between original and projected data, and cell-type lineage fidelity. We evaluated nine state-of-the-art methods, which are broadly categorized into 7 forecasting-based and 2 optimal transport (OT)-based methods across eight diverse datasets spanning four species. Our results show that while several methods achieve high forecast accuracy, they often fail to preserve biological signals, both in their latent spaces and in cell lineage reconstruction. Notably, most methods confer low lineage fidelity and often underperform compared to a correlation baseline. We further demonstrate that integrating pseudotime can effectively denoise trajectories by aligning the data snapshots with the intrinsic biological clock in each cell. Finally, to streamline benchmarking for temporal single-cell analysis, we built one of the first self-contained Python packages for the research community: https://github.com/li-lab-mcgill/scTimeBench.
+  Competing Interest StatementThe authors have declared no competing interest.Natural Sciences and Engineering Research Council, https://ror.org/01h531d29, RGPIN-2016-05174 Canadian Institutes of Health Research, https://ror.org/01gavpb45, PJT-540722 Canada Research Chairs, https://ror.org/0517h6h17, CRC-2021-00547},
+	URL = {https://www.biorxiv.org/content/early/2026/03/18/2026.03.16.712069},
+	eprint = {https://www.biorxiv.org/content/early/2026/03/18/2026.03.16.712069.full.pdf},
+	journal = {bioRxiv},
+  selected={true},
+  preview={scTimeBench_main.png},
+}
+
 @inproceedings{sheta-etal-2025-behavioral,
     title = "From Behavioral Performance to Internal Competence: Interpreting Vision-Language Models with VLM-Lens",
     author = "Sheta, Hala  and
@@ -33,19 +49,3 @@
     selected={true},
     preview={vlm-lens.png},
 }
-
-@article {Osakwe2026.03.16.712069,
-	author = {Osakwe, Adrien and Huang, Eric Haoran and Li, Yue},
-	title = {scTimeBench: A streamlined benchmarking platform for single-cell time-series analysis},
-	elocation-id = {2026.03.16.712069},
-	year = {2026},
-	doi = {10.64898/2026.03.16.712069},
-	publisher = {Cold Spring Harbor Laboratory},
-	abstract = {Temporal modelling of single-cell gene expression is essential for capturing dynamic cellular processes, yet a systematic framework for evaluating time-aware trajectory inference methods has not yet been established. Here, we present a modular and scalable benchmark designed to assess methods across three critical tasks: forecast accuracy (temporal cell alignment) for projecting cells to unseen time points, embedding coherence between original and projected data, and cell-type lineage fidelity. We evaluated nine state-of-the-art methods, which are broadly categorized into 7 forecasting-based and 2 optimal transport (OT)-based methods across eight diverse datasets spanning four species. Our results show that while several methods achieve high forecast accuracy, they often fail to preserve biological signals, both in their latent spaces and in cell lineage reconstruction. Notably, most methods confer low lineage fidelity and often underperform compared to a correlation baseline. We further demonstrate that integrating pseudotime can effectively denoise trajectories by aligning the data snapshots with the intrinsic biological clock in each cell. Finally, to streamline benchmarking for temporal single-cell analysis, we built one of the first self-contained Python packages for the research community: https://github.com/li-lab-mcgill/scTimeBench.
-  Competing Interest StatementThe authors have declared no competing interest.Natural Sciences and Engineering Research Council, https://ror.org/01h531d29, RGPIN-2016-05174 Canadian Institutes of Health Research, https://ror.org/01gavpb45, PJT-540722 Canada Research Chairs, https://ror.org/0517h6h17, CRC-2021-00547},
-	URL = {https://www.biorxiv.org/content/early/2026/03/18/2026.03.16.712069},
-	eprint = {https://www.biorxiv.org/content/early/2026/03/18/2026.03.16.712069.full.pdf},
-	journal = {bioRxiv},
-  preview={scTimeBench.png},
-}
-
