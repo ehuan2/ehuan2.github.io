@@ -1,6 +1,10 @@
 metadata:
-  last_updated: '2026-03-09'
+  last_updated: '2026-04-03'
 papers:
+  wFuI5qAAAAAJ:u-x6o8ySG0sC:
+    citations: 0
+    title: 'scTimeBench: A streamlined benchmarking platform for single-cell time-series analysis'
+    year: '2026'
   wFuI5qAAAAAJ:u5HHmVD_uO8C:
     citations: 3
     title: 'From Behavioral Performance to Internal Competence: Interpreting Vision-Language Models with VLM-LENS'
