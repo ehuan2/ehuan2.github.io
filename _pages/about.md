@@ -6,7 +6,7 @@ subtitle: <a href='https://www.cs.mcgill.ca/~yueli/'>Master's student at Yue Li 
 
 profile:
   align: right
-  image: uncompress/prof_pic.jpg
+  image: uncompress/eric.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>I'm currently located in Montréal, completing my Master's Thesis!</p>
